@@ -1,0 +1,61 @@
+/*
+Theme Name: CEREBRO
+Theme URI: http://www.dcworks.nl
+Description: The Master Theme for future theme development
+Version: 1.0
+Author: Daan Vos de Wael, Ronny Wieckardt
+Author URI: http://www.dcworks.nl
+Tags: cerebro, clean, basic
+*/
+
+body{
+	font: 13px/18px "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	color: #333;
+	background: #eee;
+}
+
+h1{
+	font: 28px/34px "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+a{
+	text-decoration: none;
+	color: red;
+}
+a:hover{
+	text-decoration: none;
+	color:	silver; 
+}
+
+#wrapper{
+	margin: 20px;
+	overflow: hidden;
+}
+
+	#header{
+		overflow: hidden;
+		margin:0 0 20px 0;
+	}
+	
+		#header .menu{
+			clear:left;
+			margin: 0 0 0 -10px;
+		}
+		
+			#header .menu li{
+				float:left;
+				margin: 0 0 0 10px;	
+			}
+			
+				#header .menu li a{
+					font: 15px/22px "Helvetica Neue", Helvetica, Arial, Sans-serif;
+					font-weight: bold;
+					text-transform: uppercase;
+					color: gray;
+				}
+				
+				#header .menu li a:hover{
+					color: silver;
+				}
