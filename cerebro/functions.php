@@ -31,6 +31,11 @@ include(TEMPLATEPATH."/includes/theme-settings.php");
 include(TEMPLATEPATH."/includes/theme-functions.php");
 
 
+function bite_me(){
+	echo "Daan, Bite me!";
+}
+
+
 // Register and enqueue javascript libraries
 function cb_register_scripts(){
 	if(!is_admin()){		
